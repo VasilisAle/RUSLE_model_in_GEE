@@ -124,7 +124,7 @@ var A_value_20 = flap.multiply(kfactor).multiply(lsfactor).multiply(cf_2020).mul
 //Display layers
 Map.centerObject(orioseich,12);
 Map.addLayer(orioseich.draw({color: '999999', strokeWidth: 2}),{},'Study Area');
-Map.addLayer(A_metavliti_20,visfactor,'A_metavliti_20');
+Map.addLayer(A_value_20,visfactor,'A_metavliti_20');
 
 //----------------EXPORT----------------------------------
 // export A value for each year (e.g. 2020);
